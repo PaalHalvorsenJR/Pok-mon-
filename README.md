@@ -3,6 +3,9 @@ I denne labben skal vi definere vår egen datatype og lage **objekter**.
 
 Pokémon er et verdenskjent japansk spill med 122 titler (per desember 2022). I dette spillet har vi en rekke forskjellige pocket monsters som kjemper mot hverandre. Alle de forskjellige pokémon'ene har felles tilstand og oppførsel, dermed blir det naturlig å bruke objektorientert programmering til å modellere disse.
 
+![Pokémon](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/640px-International_Pok%C3%A9mon_logo.svg.png)
+
+
 Denne oppgaven er inspirert av en øvingsoppgave utarbeidet av Albin Severinson og Dag Haugland.
 
 ### Eksempelkjøring
