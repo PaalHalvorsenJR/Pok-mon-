@@ -78,10 +78,25 @@ this.maxHealthPoints = this.healthPoints;
 this.strength = (int) Math.abs(Math.round(20 + 10 * random.nextGaussian()));
 ```
 
+✅ Denne oppgaven er fullført når alle feltvariabler er initiert og det er ingen syntax error i `PokemonTest.java`.
+
+
 ## Oppgave 2 - getter og hjelpemetoder
 Implementer metodene `getName`, `getStrenght`, `getCurrentHP`, `getMaxHP` og `isAlive`. Les dokumentasjonen til metodene for å vite hva de skal gjøre.
 
-## Oppgave 3 - `damage`
+✅ Denne oppgaven er fullført når alle metodene beskrevet er implementert. Du kan forvente at `getNameTest` og `getStrengthTest` i `PokemonTest.java` passerer.
+
+## Oppgave 3 - `toString`
+Implementer `toString`. Denne metoden lager sen string-representasjon av datatypen. En pokémon ønsker vi å representere slik:
+```
+Mew HP: (??/??) STR: ??
+```
+Her er navnet til pokémonen *Mew*. Spørsmålstegnene inni parantesene skal byttes ut med `healthPoints` og `maxHealthPoints`. Spørsmålstegnene etter "STR:" skal byttes ut med `strength`.
+
+✅ Denne oppgaven er fullført når `toStringTest` i `PokemonTest.java` passerer.
+
+
+## Oppgave 4 - `damage`
 Implementer metoden `damage`. Metoden skal trekke i fra `damageTaken` fra antall `healthPoints` Pokémon'en har. Man kan ikke ha færre enn 0 `healthPoints`.
 
 Metoden skal skrive ut:
@@ -90,7 +105,10 @@ Pikachu takes 3 damage and is left with 84/94 HP
 ```
 (I dette tilfellet er Pikachu pokémon'en som tar skade).
 
-## Oppgave 4 - `attack`
+✅ Denne oppgaven er fullført når `healthPointsTest`, `damageTest`, `hpNotBelowZeroTest1`, `hpNotBelowZeroTest2` og `isAliveTest` passerer.
+
+
+## Oppgave 5 - `attack`
 Implementer metoden `attack`. Metoden skal utføre et angrep på `target`. Hvor mange health points som skal tas fra `target` baseres på Pokémon'ens strength og tilfeldighet. Bruk denne linjen:
 ```java
 int damageInflicted = (int) (this.strength + this.strength / 2 * random.nextGaussian());
@@ -106,11 +124,14 @@ Hvis `target` ikke er levende etter angrepet skal du metoden skrive ut:
 Pikachu is defeated by Oddish.
 ```
 
-## Oppgave 5 - Pokémon Battle
+✅ Denne oppgaven er fullført når `attackTest` og `attackDefeatTest` passerer.
+
+
+## Oppgave 6 - Pokémon Battle
 I `Main::main` opprett to pokemon og la de kjempe til en er bekjempet (`isAlive` returnerer `false`). <br></br>
 Bruk de globale variablene `pokemon1` og `pokemon2` og la de kjempe.
 
-Eksempelkjøring:
+Eksempelkjøring (printer pokemonene først):
 ```
 Pikachu HP: (94/94) STR: 12
 Oddish HP: (100/100) STR: 3
@@ -155,3 +176,8 @@ Pikachu attacks Oddish.
 Oddish takes 4 damage and is left with 0/100 HP
 Oddish is defeated by Pikachu.
 ```
+
+✅ Denne oppgaven er fullført når alle testene i  `PokemonBattleTest.java`.
+
+
+### ✅ Når alle testene i `PokemonTest.java` og `PokemonBattleTest.java` passerer er oppgaven ferdig. HUSK AT DU MÅ LEVERE PÅ CODEGRADE!
