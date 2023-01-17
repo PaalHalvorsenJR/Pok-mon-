@@ -70,7 +70,7 @@ Det første vi skal implementere er dens tilstand, aka. dens feltvariabler. <br>
 ### Deloppgave B - Konstruktør
 Konstruktøren i en klasse er en metode som oppretter et objekt av den datatypen. <br></br>
 **TODO: Implementer en konstruktør som tar inn ett argument: `String name`.** Konstruktøren skal initiere feltvariablene. <br></br>
-`maxHealthPoints`, `healthPoints` og `strenght` skal gis verdier basert på tilfeldighet. Bruk de følgende linjene:
+`maxHealthPoints`, `healthPoints` og `strength` skal gis verdier basert på tilfeldighet. Bruk de følgende linjene:
 ```java
 this.random = new Random();
 this.healthPoints = (int) Math.abs(Math.round(100 + 10 * random.nextGaussian()));
@@ -82,16 +82,16 @@ this.strength = (int) Math.abs(Math.round(20 + 10 * random.nextGaussian()));
 
 
 ## Oppgave 2 - getter og hjelpemetoder
-Implementer metodene `getName`, `getStrenght`, `getCurrentHP`, `getMaxHP` og `isAlive`. Les dokumentasjonen til metodene for å vite hva de skal gjøre.
+Implementer metodene `getName`, `getStrength`, `getCurrentHP`, `getMaxHP` og `isAlive`. Les dokumentasjonen til metodene for å vite hva de skal gjøre.
 
 ✅ Denne oppgaven er fullført når alle metodene beskrevet er implementert. Du kan forvente at `getNameTest` og `getStrengthTest` i `PokemonTest.java` passerer.
 
 ## Oppgave 3 - `toString`
-Implementer `toString`. Denne metoden lager sen string-representasjon av datatypen. En pokémon ønsker vi å representere slik:
+Implementer `toString`. Denne metoden lager en string-representasjon av datatypen. En pokémon ønsker vi å representere slik:
 ```
 Mew HP: (??/??) STR: ??
 ```
-Her er navnet til pokémonen *Mew*. Spørsmålstegnene inni parantesene skal byttes ut med `healthPoints` og `maxHealthPoints`. Spørsmålstegnene etter "STR:" skal byttes ut med `strength`.
+Her er navnet til pokémonen *Mew*. Spørsmålstegnene inni parentesene skal byttes ut med `healthPoints` og `maxHealthPoints`. Spørsmålstegnene etter "STR:" skal byttes ut med `strength`.
 
 ✅ Denne oppgaven er fullført når `toStringTest` i `PokemonTest.java` passerer.
 
