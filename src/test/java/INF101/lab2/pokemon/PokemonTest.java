@@ -83,6 +83,8 @@ public class PokemonTest {
         // Perform an attack 100 times. A pokemon may do 0 damage sometimes, but not 100 times in a row (astronomical chances).
         for (int i = 0; i < 100; i++) { 
             pokemon.attack(target);
+            if (pokemon.getCurrentHP() <= 0)
+                break;
         }
         assertTrue(targetHP > target.getCurrentHP());
     }
