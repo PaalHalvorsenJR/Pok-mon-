@@ -6,7 +6,7 @@ I denne labben skal vi definere vår egen datatype og lage **objekter**.
 ![Pokémon](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/640px-International_Pok%C3%A9mon_logo.svg.png)
 
 
-Denne oppgaven er inspirert av en øvingsoppgave utarbeidet av Albin Severinson og Dag Haugland.
+Denne oppgaven er basert på en øvingsoppgave utarbeidet av Albin Severinson og Dag Haugland.
 
 ### Eksempelkjøring
 Når vi i denne labben lager Pokémon vil vi fokusere på de essensielle aspektene ved spillet. Dette betyr at spillet vil være tekstbasert og ha ingen bruker-input. Når programmet kjøres skal det følgende skrives ut:
