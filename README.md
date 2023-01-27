@@ -97,7 +97,7 @@ Her er navnet til pokémonen *Mew*. Spørsmålstegnene inni parentesene skal byt
 
 
 ## Oppgave 4 - `damage`
-Implementer metoden `damage`. Metoden skal trekke i fra `damageTaken` fra antall `healthPoints` Pokémon'en har. Man kan ikke ha færre enn 0 `healthPoints`.
+Implementer metoden `damage`. Metoden skal trekke i fra `damageTaken` fra antall `healthPoints` Pokémon'en har. Man kan ikke ha færre enn 0 `healthPoints`. Det skal ikke være mulig å gi negative skade, altså øke antall health points.
 
 Metoden skal skrive ut:
 ```
