@@ -45,15 +45,17 @@ public interface IPokemon {
     public void attack(IPokemon target);
     
     /**
-     * Damage the pokémon. This method reduces the number of 
-     * health points the pokémon has by <code>damageTaken</code>.
-     * If <code>damageTaken</code> is higher than the number of current
-     * health points then set current HP to 0.
-     * 
-     * The method should print how much HP the pokemon is left with.
-     * 
-     * @param damageTaken
-     */
+   * Damage the pokémon. This method reduces the number of
+   * health points the pokémon has by <code>damageTaken</code>.
+   * If <code>damageTaken</code> is higher than the number of current
+   * health points then set current HP to 0.
+   *
+   * It should not be possible to deal negative damage, i.e. increase the number of health points.
+   *
+   * The method should print how much HP the pokemon is left with.
+   *
+   * @param damageTaken
+   */
     public void damage(int damageTaken);
 
 }
