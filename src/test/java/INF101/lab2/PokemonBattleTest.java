@@ -7,6 +7,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import INF101.lab2.pokemon.IPokemon;
+import INF101.lab2.pokemon.Main;
 
 public class PokemonBattleTest {
     

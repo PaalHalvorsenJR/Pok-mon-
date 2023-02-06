@@ -1,5 +1,4 @@
 package INF101.lab2.pokemon;
-
 public interface IPokemon {
 
     /**
@@ -7,6 +6,7 @@ public interface IPokemon {
      * @return name of pokémon
      */
     public String getName();
+    
 
     /**
      * Get strength of pokémon
